@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup1">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="143" max="-2" attributes="0"/>
+                              <Component id="lblAndraAgentTitel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="78" max="-2" attributes="0"/>
+                              <Component id="btnGetAgent" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="txtID" min="-2" pref="50" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblErrorID" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblAndraAgentTitel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtID" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnGetAgent" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblErrorID" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblAndraAgentTitel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xc4;ndra Agent"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtID">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnGetAgent">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="H&#xe4;mta Agent"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnGetAgentActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblErrorID">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Inte hittad"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="lblAnstDat" max="32767" attributes="0"/>
+                                  <Component id="jLblNamn" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="lblLosenord" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="lblOmrade" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="lblTelefon" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="lblKontorsbeteckning" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="lblAnsvarsOmrade" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <Component id="jBtnExit" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="btnAndra" min="-2" pref="73" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="lblErrorAndra" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="txtAnsvarsOmrode" max="32767" attributes="0"/>
+                                      <Component id="txtOmrade" max="32767" attributes="0"/>
+                                      <Component id="txtAnstallningsdatum" max="32767" attributes="0"/>
+                                      <Component id="txtTelNum" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="txtLosenord" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="txtNamn" max="32767" attributes="0"/>
+                                      <Component id="txtKontor" alignment="0" min="-2" pref="124" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="lblErrorNamn" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblErrorLosenord" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblErrorAnstallning" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblErrorOmrade" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblErrorTelefon" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblErrorKontor" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblErrorAnsvarsOmrade" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="rBFaltagent" min="-2" pref="75" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="rBKontorschef" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="rBOmradesChef" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="rBAdmin" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="rBFaltagent" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="rBKontorschef" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="rBOmradesChef" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="rBAdmin" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLblNamn" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtNamn" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblErrorNamn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblLosenord" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtLosenord" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblErrorLosenord" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblAnstDat" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtAnstallningsdatum" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblErrorAnstallning" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblErrorOmrade" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtOmrade" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblOmrade" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblTelefon" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtTelNum" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblErrorTelefon" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtKontor" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblKontorsbeteckning" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblErrorKontor" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtAnsvarsOmrode" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblAnsvarsOmrade" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblErrorAnsvarsOmrade" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="btnAndra" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblErrorAndra" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jBtnExit" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblErrorAndra">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="[Success or Failure]"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtOmrade">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtAnsvarsOmrode">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblErrorKontor">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Fel inmatad data"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtNamn">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblLosenord">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="L&#xf6;senord:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblErrorAnstallning">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Fel inmatad data"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtLosenord">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblAnstDat">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Anst&#xe4;llningsdatum:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblKontorsbeteckning">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Kontor:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblErrorAnsvarsOmrade">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Fel inmatad data"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblTelefon">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Telefonnummer:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rBKontorschef">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Kontorschef"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rBKontorschefActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblErrorOmrade">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Fel inmatad data"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rBOmradesChef">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Omr&#xe5;deschef"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rBFaltagent">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="F&#xe4;ltagent"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rBFaltagentActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblErrorTelefon">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Fel inmatad data"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtAnstallningsdatum">
+        </Component>
+        <Component class="javax.swing.JButton" name="btnAndra">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#xc4;ndra"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAndraActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblErrorNamn">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Fel inmatad data"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLblNamn">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Namn:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblAnsvarsOmrade">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Ansvarsomr&#xe5;de:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtKontor">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblErrorLosenord">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Fel inmatad data"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtTelNum">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblOmrade">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Omr&#xe5;desplacering:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rBAdmin">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Administrat&#xf6;r"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rBAdminActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jBtnExit">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="St&#xe4;ng f&#xf6;nster"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnExitActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
